@@ -1,0 +1,147 @@
+:root {
+    --main-color: #f4f4fd;
+}
+
+body {
+    /* Тепер (майже) всі елементи відображаються шрифтом без засічок */
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.nav-span {
+    color: #2e2f42;
+}
+
+.li-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.li-link:hover,
+.li-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/*END HEADER*/
+
+/*Begin 1 section*/
+.sect-one {
+    background-color: #2e2f42;
+}
+
+.sect-one-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.sect-one-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sect-one-button:hover,
+.sect-one-button:focus {
+    background-color: #404BBF;
+}
+
+/*End of Section1*/
+/*Begin of Section2*/
+
+.sect-two-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.sect-two-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*End of Section2*/
+/*Begin of Section3*/
+
+.sect-thr {
+    background-color: #F4F4FD;
+}
+
+.sect-thr-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.sect-thr-li {
+    background-color: #FFFFFF;
+
+}
+
+.sect-thr-sub {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.footer-span {
+    color: var(--main-color);
+}
