@@ -54,6 +54,9 @@ body {
     color: #404bbf;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 /*END HEADER*/
 
 /*Begin 1 section*/
@@ -145,3 +148,17 @@ body {
 .footer-span {
     color: var(--main-color);
 }
+
+.container {
+    max-width: 2000px;
+        padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+img {
+    display: block;
+}
+
