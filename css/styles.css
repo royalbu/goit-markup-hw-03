@@ -15,6 +15,7 @@ body {
     margin: 0;
 }
 
+.sect-four-ul, .
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -223,7 +224,7 @@ body {
 
 /* Section four*/
 
-.section-four .container {
+.section-four {
     padding: 120px 0 120px 0;
 }
 
@@ -232,6 +233,8 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .sect-four-li {
