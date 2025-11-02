@@ -187,13 +187,10 @@ body {
 
 }
 
-.sect-thr-ul:first-child {
-    width: calc((100% - 72px) / 4)
-}
 
 .sect-thr-li {
     background-color: #FFFFFF;
-
+    width: calc((100% - 72px) / 4);
 }
 
 .sect-thr-sub {
