@@ -271,11 +271,10 @@ body {
 }
 
 .container {
-    max-width: 2000px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-nav-logo {
