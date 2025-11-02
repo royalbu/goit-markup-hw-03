@@ -222,7 +222,10 @@ body {
 }
 
 /* Section four*/
-/* END of Section four*/
+
+.section-four .container {
+    padding: 120px 0 120px 0;
+}
 
 .sect-four-ul {
     display: flex;
@@ -242,10 +245,12 @@ body {
     border-top: 0;
     }
 
-    .sect-thr-sub {
+    .sect-four-sub {
         margin-bottom: 8px;
-        
     }
+
+/* END of Section four*/
+/* Begin of footer*/
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
