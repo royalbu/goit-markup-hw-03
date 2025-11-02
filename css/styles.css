@@ -18,10 +18,17 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .nav-span {
     color: #2e2f42;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .li-link {
@@ -71,11 +78,13 @@ body {
     align-items: center;
 
 }
+
 /*END HEADER*/
 
 /*Begin 1 section*/
 .sect-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .sect-one-title {
@@ -84,6 +93,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .sect-one-button {
@@ -95,6 +105,11 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .sect-one-button:hover,
@@ -105,12 +120,21 @@ body {
 /*End of Section1*/
 /*Begin of Section2*/
 
+.sect-two {
+    padding: 120px 0;
+}
+
 .sect-two-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.sect-two-ul {
+    display: flex;
+    gap: 24px;
 }
 
 .sect-two-p {
@@ -166,7 +190,7 @@ body {
 
 .container {
     max-width: 2000px;
-        padding-left: 0;
+    padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
@@ -176,4 +200,3 @@ body {
 img {
     display: block;
 }
-
