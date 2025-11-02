@@ -57,6 +57,20 @@ body {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+
+.header .container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
 /*END HEADER*/
 
 /*Begin 1 section*/
@@ -137,6 +151,7 @@ body {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-p {
